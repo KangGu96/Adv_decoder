@@ -15,8 +15,8 @@ CMS: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician
 
 MT: https://www.kaggle.com/datasets/tboyle10/medicaltranscription
 
-# Preprocess
+# Preprocess for keyword inference attack
 
 We provide a sample preprocessing notebook for annotating medical datasets.
 
-As for airline datasets, we provide the word city dataset as a benchmark.
+As for airline datasets, we refer to the word city dataset as a benchmark: https://github.com/datasets/world-cities

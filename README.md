@@ -9,6 +9,8 @@ All the codes are provided in notebook for interpretability
 Please refer to environment.yml
 
 # Datasets
+Use the links below to access the datasets used in our paper. However, we found that CMS website has been updated and the original link doesn't work anymore.
+
 Skytrax: https://github.com/quankiquanki/skytrax-reviews-dataset
 
 Twitter US Airline: https://github.com/benhamner/crowdflower-airline-twitter-sentiment

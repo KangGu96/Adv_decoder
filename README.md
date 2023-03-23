@@ -13,7 +13,7 @@ Skytrax: https://github.com/quankiquanki/skytrax-reviews-dataset
 
 Twitter US Airline: https://github.com/benhamner/crowdflower-airline-twitter-sentiment
 
-CMS: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician
+CMS: https://data.cms.gov/search
 
 MT: https://www.kaggle.com/datasets/tboyle10/medicaltranscription
 

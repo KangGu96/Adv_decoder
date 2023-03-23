@@ -24,8 +24,9 @@ We provide a sample preprocessing notebook for annotating medical datasets.
 As for airline datasets, we refer to the word city dataset as a benchmark: https://github.com/datasets/world-cities
 
 # Preprocess for training the decoder
+The preprocessing pipeline is given for BERT. However, it can be adapted to other LMs.
 
-Run preprocess_tokens.ipynb to generate input_ids etc. for LMs
+Run preprocess_tokens.ipynb to generate input_ids etc. for LMs (Hint: Clean your own textual data before performing any preprocesses)
 
 Run generate_embedding.ipynb to generate sentence embeddings for decoder
 

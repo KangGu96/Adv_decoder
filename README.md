@@ -31,4 +31,4 @@ Run preprocess_tokens.ipynb to generate input_ids etc. for LMs (Hint: Clean your
 Run generate_embedding.ipynb to generate sentence embeddings for decoder
 
 # Train the Decoder
-
+Follow the toy-decoder.ipynb to train and test the decoder

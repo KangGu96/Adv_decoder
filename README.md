@@ -4,6 +4,8 @@ This is the official repository for PETS 2023 paper "Towards Sentence Level Infe
 # Dependencies
 To use the code in this project, make sure your Python=3.6 
 
+All the codes are provided in notebook for interpretability
+
 Please refer to environment.yml
 
 # Datasets
@@ -20,3 +22,12 @@ MT: https://www.kaggle.com/datasets/tboyle10/medicaltranscription
 We provide a sample preprocessing notebook for annotating medical datasets.
 
 As for airline datasets, we refer to the word city dataset as a benchmark: https://github.com/datasets/world-cities
+
+# Preprocess for training the decoder
+
+Run preprocess_tokens.ipynb to generate input_ids etc. for LMs
+
+Run generate_embedding.ipynb to generate sentence embeddings for decoder
+
+# Train the Decoder
+

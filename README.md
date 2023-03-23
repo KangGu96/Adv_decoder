@@ -15,3 +15,6 @@ CMS: https://data.cms.gov/provider-summary-by-type-of-service/medicare-physician
 
 MT: https://www.kaggle.com/datasets/tboyle10/medicaltranscription
 
+# Preprocess
+
+We provide a sample preprocessing notebook for annotating medical datasets.

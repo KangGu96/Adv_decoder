@@ -18,3 +18,5 @@ MT: https://www.kaggle.com/datasets/tboyle10/medicaltranscription
 # Preprocess
 
 We provide a sample preprocessing notebook for annotating medical datasets.
+
+As for airline datasets, we provide the word city dataset as a benchmark.

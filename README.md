@@ -25,6 +25,15 @@ We provide a sample preprocessing notebook for annotating medical datasets.
 
 As for airline datasets, we refer to the word city dataset as a benchmark: https://github.com/datasets/world-cities
 
+
+#Tips for Data Preprocessing
+For example, to preprocess Skytrax dataset.
+We prepare two versions of dataset: the full dataset and a filtered dataset.
+We refer to the external word city dataset, and only keep the samples containing one of the cities.
+If the decoder is trained on the filtered dataset, we refer it as vanilla decoder as in the paper.
+If the decoder is pre-trained on the full dataset then finetuned on the filtered dataset, we refer it as pre-trained decoder.
+
+
 # Preprocess for training the decoder
 The preprocessing pipeline is given for BERT. However, it can be adapted to other LMs.
 

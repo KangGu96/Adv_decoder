@@ -43,3 +43,8 @@ Run generate_embedding.ipynb to generate sentence embeddings for decoder
 
 # Train the Decoder
 Follow the toy-decoder.ipynb to train and test the decoder
+1. The Decoder class is the model used in our experiment, and smooth entropy loss is used for training.
+2. The training epoch is set to be 20 with early stop.
+3. After training is done, use translate function to query the decoder and generate sentences. By default, top-k sampling is used and each sample is repeated 10 times.
+4. Finally, we can either count the keywords in the generation or measure the sentence similarity directly.
+

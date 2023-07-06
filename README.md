@@ -48,3 +48,8 @@ Follow the toy-decoder.ipynb to train and test the decoder
 3. After training is done, use translate function to query the decoder and generate sentences. By default, top-k sampling is used and each sample is repeated 10 times.
 4. Finally, we can either count the keywords in the generation or measure the sentence similarity directly.
 
+# Sample dataset
+we provide a subset of mt with spacy annotations. You can prepare your own dataset in this fashion.
+
+# Sample code
+We provide a step by step notebook to help you perform data preprocessing and decoder training using the sample dataset

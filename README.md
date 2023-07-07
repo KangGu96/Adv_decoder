@@ -1,5 +1,6 @@
 # Adversarial Decoder
 This is the official repository for PETS 2023 paper "Towards Sentence Level Inference Attack Against Pre-trained Language Models"
+The goal is to let you train a decoder, which can invert embeddings and test its performances.
 
 
 # Dependencies
@@ -53,4 +54,6 @@ Follow the toy-decoder.ipynb to train and test the decoder
 we provide a subset of mt with spacy annotations. You can prepare your own dataset in this fashion.
 
 # Sample code
-We provide a step by step notebook to help you perform data preprocessing and decoder training using the sample dataset
+We provide a step by step notebook to help you perform data preprocessing and decoder training using the sample dataset.
+You are encouraged to run it on google colab and follow the instructions to train the decoder. After that, we should be able to experiment embedding
+inversion on your own data. 
